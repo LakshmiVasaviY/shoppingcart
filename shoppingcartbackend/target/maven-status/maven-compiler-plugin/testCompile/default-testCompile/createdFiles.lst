@@ -1,0 +1,10 @@
+com\niit\testcases\ProductDAOTestCase.class
+com\niit\testcases\ContactDAOTestCase.class
+com\niit\shoppingcartbackend\AppTest.class
+com\niit\testcases\OrderTableDAOTestCase.class
+com\niit\testcases\SupplierDAOTestCase.class
+com\niit\testcases\UserTest.class
+com\niit\testcases\CategoryDAOTestCase.class
+com\niit\testcases\AddressDAOTestCase.class
+com\niit\testcases\My_CartDAOTestCase.class
+com\niit\testcases\UserDAOTestCase.class
