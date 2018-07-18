@@ -34,14 +34,14 @@ public class UserDAOTestCase {
 		user = (User) context.getBean("user");
 
 	}
-	@Ignore
+	//@Ignore
 	@Test
 	public void createUserTestCase() {
-		user.setId("vasavi");
-		user.setName("vasavi");
-		user.setPassword("vasavi");
-		user.setRole("ROLE_ADMIN");
-		user.setContact("9876565490");
+		user.setId("lakshmi");
+		user.setName("lakshmi");
+		user.setPassword("lakshmi");
+		user.setRole("ROLE_USER");
+		user.setContact("12345678");
 		boolean flag = userDAO.save(user);
 
 		assertEquals("createUserTestCase", true, flag);
